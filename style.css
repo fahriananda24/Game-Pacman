@@ -21,8 +21,8 @@ body {
 /* Styling untuk judul utama */
 h1 {
     /* margin-bottom: 20px; */
-    color: yellow;
-    text-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+    color: rgb(17, 255, 0);
+    text-shadow: 0 0 10px rgb(0, 255, 51);
 }
 
 /* Container utama game */
@@ -47,8 +47,8 @@ h1 {
     grid-template-columns: repeat(31, 20px);
     grid-template-rows: repeat(21, 20px);
     gap: 0;
-    border: 2px solid blue;
-    background-color: black;
+    border: 2px solid rgb(238, 255, 0);
+    background-color: rgb(7, 6, 5);
 }
 
 /* Styling untuk setiap sel di papan game */
@@ -59,14 +59,14 @@ h1 {
 
 /* Styling untuk dinding */
 .wall {
-    background-color: blue;
+    background-color: rgb(8, 235, 174);
 }
 
 /* Styling untuk titik biasa */
 .dot {
     width: 6px;
     height: 6px;
-    background-color: #fff;
+    background-color: #ffcc00;
     border-radius: 50%;
     margin: 7px;
 }
@@ -75,7 +75,7 @@ h1 {
 .power-pellet {
     width: 12px;
     height: 12px;
-    background-color: #fff;
+    background-color: #ff2b2b;
     border-radius: 50%;
     margin: 4px;
     animation: pulse 1s infinite alternate;
@@ -161,16 +161,16 @@ h1 {
 }
 
 /* Warna untuk hantu Blinky */
-.blinky { background-color: red; }
+.blinky { background-color: rgb(0, 72, 255); }
 
 /* Warna untuk hantu Pinky */
-.pinky { background-color: pink; }
+.pinky { background-color: rgb(43, 255, 0); }
 
 /* Warna untuk hantu Inky */
-.inky { background-color: cyan; }
+.inky { background-color: rgb(234, 0, 255); }
 
 /* Warna untuk hantu Clyde */
-.clyde { background-color: orange; }
+.clyde { background-color: rgb(255, 0, 208); }
 
 /* Styling untuk hantu saat takut */
 .scared {
@@ -194,7 +194,6 @@ h1 {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: yellow;
     color: black;
     border: none;
     border-radius: 5px;
